@@ -36,6 +36,15 @@ references:
   - references/paper_citations.md
   - references/install_guide.md
 metadata:
+  openclaw:
+    requires:
+      bins:
+        - python3
+    emoji: "🦉"
+    homepage: https://github.com/casparzhong-cloud/institutional-tracker-ai
+    os:
+      - macos
+      - linux
   security:
     credentials_usage: |
       需要用户自备 Tushare 代理 Token（闲鱼可买38元/月，支持分钟线）。
